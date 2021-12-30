@@ -11,8 +11,8 @@ const state = {
         ['sqr-1', 'sqr-5', 'sqr-9'], // diagonal-1
         ['sqr-3', 'sqr-5', 'sqr-7'], // diagonal-2
     ],    
-    isCircle: false,
-    haveWinner: false
+    isCircle: false, // To track who is playing: X or O
+    haveWinner: false // To track if someone has won.
 }
 
 const clearBoardAndStats = () => {
