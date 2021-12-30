@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container-ttt">
+            <div class="sqr sqr-1" onclick="makeAMove('sqr-1')"></div>
+            <div class="sqr sqr-2" onclick="makeAMove('sqr-2')"></div>
+            <div class="sqr sqr-3" onclick="makeAMove('sqr-3')"></div>
+            <div class="sqr sqr-4" onclick="makeAMove('sqr-4')"></div>
+            <div class="sqr sqr-5" onclick="makeAMove('sqr-5')"></div>
+            <div class="sqr sqr-6" onclick="makeAMove('sqr-6')"></div>
+            <div class="sqr sqr-7" onclick="makeAMove('sqr-7')"></div>
+            <div class="sqr sqr-8" onclick="makeAMove('sqr-8')"></div>
+            <div class="sqr sqr-9" onclick="makeAMove('sqr-9')"></div>
+        </div>
+
+        <div class="info">
+            <div id="label-whose-turn">
+                Whose turn is it? <span id="whose-turn">X</span> <!-- X ou O -->
+            </div>
+
+            <button onclick="clearBoardAndStats()">reset</button>
+        </div>
+    </main>
+    
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
